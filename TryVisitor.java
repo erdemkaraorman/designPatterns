@@ -74,9 +74,9 @@ public class TryVisitor {
 	public static void main(String[] args) {
 		TryVisitor tryVisitor=new TryVisitor();
 		DailySession session=tryVisitor.new DailySession();
-		Equity equity=tryVisitor.new Equity("GARAN");
-		Warrant warrant=tryVisitor.new Warrant("Varant");
-		Certificate certificate=tryVisitor.new Certificate("Sertifika");
+		Equity equity=tryVisitor.new Equity("Equity");
+		Warrant warrant=tryVisitor.new Warrant("Warrant");
+		Certificate certificate=tryVisitor.new Certificate("Certificate");
 		
 		//System.out.println(equity.accept(session));
 		//System.out.println(warrant.accept(session));
